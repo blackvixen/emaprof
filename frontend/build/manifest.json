@@ -1,0 +1,59 @@
+{
+  "app.css": "/static/css/app.df453a990e3bbe6e5109.css",
+  "app.js": "/static/js/app.04fa938f.js",
+  "app2.js": "/static/js/app2.8d4e349a.js",
+  "css/app.df453a990e3bbe6e5109.css.map": "/static/css/app.df453a990e3bbe6e5109.css.map",
+  "entrypoints": {
+    "app": {
+      "assets": {
+        "js": [
+          "/static/js/runtime.c66db130.js",
+          "/static/js/812.834f9cb1.js",
+          "/static/js/app.04fa938f.js"
+        ],
+        "css": [
+          "/static/css/app.df453a990e3bbe6e5109.css"
+        ]
+      }
+    },
+    "app2": {
+      "assets": {
+        "js": [
+          "/static/js/runtime.c66db130.js",
+          "/static/js/app2.8d4e349a.js"
+        ]
+      }
+    }
+  },
+  "index.html": "/static/index.html",
+  "js/812.834f9cb1.js": "/static/js/812.834f9cb1.js",
+  "js/812.834f9cb1.js.map": "/static/js/812.834f9cb1.js.map",
+  "js/app.04fa938f.js.map": "/static/js/app.04fa938f.js.map",
+  "js/app2.8d4e349a.js.map": "/static/js/app2.8d4e349a.js.map",
+  "js/runtime.c66db130.js.map": "/static/js/runtime.c66db130.js.map",
+  "runtime.js": "/static/js/runtime.c66db130.js",
+  "vendors/.gitkeep": "/static/vendors/.gitkeep",
+  "vendors/images/.gitkeep": "/static/vendors/images/.gitkeep",
+  "vendors/images/best_forbes.jpeg": "/static/vendors/images/best_forbes.jpeg",
+  "vendors/images/bg.jpeg": "/static/vendors/images/bg.jpeg",
+  "vendors/images/bg.jpg": "/static/vendors/images/bg.jpg",
+  "vendors/images/favicon.png": "/static/vendors/images/favicon.png",
+  "vendors/images/favicon.svg": "/static/vendors/images/favicon.svg",
+  "vendors/images/logo.svg": "/static/vendors/images/logo.svg",
+  "vendors/images/map.png": "/static/vendors/images/map.png",
+  "vendors/images/me-old.png": "/static/vendors/images/me-old.png",
+  "vendors/images/me.jpg": "/static/vendors/images/me.jpg",
+  "vendors/images/me.png": "/static/vendors/images/me.png",
+  "vendors/images/my_life.jpg": "/static/vendors/images/my_life.jpg",
+  "vendors/images/pyramid.png": "/static/vendors/images/pyramid.png",
+  "vendors/images/sample.jpg": "/static/vendors/images/sample.jpg",
+  "vendors/images/team.jpg": "/static/vendors/images/team.jpg",
+  "vendors/images/teams/ben.jpg": "/static/vendors/images/teams/ben.jpg",
+  "vendors/images/teams/campbell.jpg": "/static/vendors/images/teams/campbell.jpg",
+  "vendors/images/teams/felipe.jpg": "/static/vendors/images/teams/felipe.jpg",
+  "vendors/images/teams/hazel.jpg": "/static/vendors/images/teams/hazel.jpg",
+  "vendors/images/teams/kenny.jpg": "/static/vendors/images/teams/kenny.jpg",
+  "vendors/images/teams/larry.jpg": "/static/vendors/images/teams/larry.jpg",
+  "vendors/images/webpack.png": "/static/vendors/images/webpack.png",
+  "vendors/images/white.svg": "/static/vendors/images/white.svg"
+}

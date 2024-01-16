@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<section class="w-screen px-3 md:px-48 py-8 space-y-3 text-gray-700 bg-[#F7FAFC]">
+  <h4 class="text-center text-xl md:text-2xl font-bold">Get a financial plan that prioritizes </h4>
+
+  <p class="md:text-base text-base font-light text-justify">
+    Together, we'll look at where you are, wherever that is. I'll then give you multiple strategies specifically designed to take you where you want to go. Here's how we'll get it done:
+  </p>
+
+  <div class="w-full p-6 md:flex md:items-center md:space-x-4 md:space-y-0 sace-y-4">
+    <img src="{% static 'vendors/images/pyramid.png' %}" alt="pyramid" class="h-54 w-54 object-cover">
+  </div>
+
+  <div class="space-x-2 flex items-start">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+    </svg>
+    <p class="text-base font-light">
+      <strong>Look at where you are today</strong>
+      <br>
+      Your plan will help you make the most of what you already have, no matter where you're starting from, and give you a snapshot of your financial big picture.
+    </p>
+  </div>
+
+  <div class="space-x-2 flex items-start">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+    </svg>
+    <p class="text-base font-light">
+      <strong>Identify where you want to go</strong>
+      <br>
+      Whether it's shorter-term goals like managing your debt, or longer-term ones like saving for a new home, or retirement, your financial plan will show you how you're tracking, help you understand what's working, and point out any gaps you might have.
+    </p>
+  </div>
+  <div class="space-x-2 flex items-start">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+    </svg>
+    <p class="text-base font-light">
+      <strong>Put together range of options to get you there</strong>
+      <br>
+      Looking across all your goals, you'll get personalized recommendations and strategies to grow your wealth while making sure everything's protected. And I'll help you determine the right moves to make today and later on. Your financial plan is based on your priorities. As those priorities change throughout your life, we'll shift the financial strategies in your plan, too-so your plan stays flexible, and you stay on track to consistently meet goal after goal.
+    </p>
+  </div>
+</section>
+
+<section class="w-screen px-3 md:px-48 py-8 space-y-3 text-gray-700 bg-white">
+  <h4 class="text-center text-xl md:text-2xl font-bold">Financial planning</h4>
+
+  <p class="md:text-base text-base font-light text-justify">
+    Our financial planning conversations don't begin with your finances. Instead we start with you - your life, your family, your priorities, and goals. Once we have your big picture in focus, we'll tailor a plan from a range of financial options using multiple strategies designed specifically to help get you to where you want to be.
+  </p>
+
+  <iframe class="w-full h-96" title="Close up of family smiling at each other" src="https://icg.citi.com/icghome/what-we-think/leadership/insights/good-things-happen-introduction" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="styles__Video-sc-4x85k8-1 fhqNtS"></iframe>
+</section>
+{% endblock content %}
+

@@ -1,0 +1,69 @@
+{% load static %}
+<div class="w-screen bg-citibank text-white flex flex-col justify-center px-3 md:px-24 py-8">
+  <h4 class="text-center pb-4 text-base md:text-xl font-black">Ready to work together?</h4>
+  <a href="https://wa.me/message/FYKYNJPDHXH6K1" class="mx-auto block text-center bg-citibank_red py-3 px-6 text-white text-base font-normal hover:bg-citibank_red/60 duration-300 md:w-1/4 w-2/3">Let's Connect</a>
+</div>
+
+<section class="w-screen text-gray-700 text-base bg-[#F7FAFC] px-3 md:px-24 py-6 md:py-9">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <div class="order-2 md:order-1">
+      <h4 class="text-2xl md:text-4xl font-bold">Rahul Sahil Gupta</h4>
+      <strong class="text-base block md:text-xl font-light">Wealth Management Advisor</strong>
+      <span class="text-base block md:text-xl font-light">CFP<sup>®</sup>, CPA, CLU<sup>®</sup>, CLTC<sup>®</sup></span>
+      <a href="" class="hover:underline text-citibank duration-300 text-base font-semibold pt-6 block">Let's Connect</a>
+    </div>
+    <div class="order-1 md:order-2 uppercase">
+      <ul class="space-y-4 text-gray-700 text-sm font-semibold">
+        <li hx-get="{% url 'home' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'home' %}" class="cursor-pointer hover:underline">home</li>
+        <li hx-get="{% url 'about' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'about' %}" class="cursor-pointer hover:underline">about</li>
+        <li hx-get="{% url 'team' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'team' %}" class="cursor-pointer hover:underline">my team</li>
+        <li hx-get="{% url 'planning' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'planning' %}" class="cursor-pointer hover:underline">planning</li>
+        <li hx-get="{% url 'resources' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'resources' %}" class="cursor-pointer hover:underline">resources</li>
+      </ul>
+    </div>
+    <div class="order-3">
+      <div class="flex items-center space-x-6 mb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+        </svg>
+        <span class="block font-lighter underline text-blue-400 text-left">256-960‑8188</span>
+      </div>
+      <div class="flex items-center space-x-6 mb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        <span class="block font-lighter underline text-blue-400 text-left">388 Greenwich Street Tower Building, New York, NY 10013, USA</span>
+      </div>
+      <img src="{% static 'vendors/images/map.png' %}" alt="map" class="w-full object-cover">
+    </div>
+  </div>
+
+  <hr class="mb-6 mt-6">
+
+  <footer class="w-full text-xs py-8">
+    <p class="text-justify block py-3 font-normal">
+      Securities and Mutual Fund orders can only be placed by phone or in person. We will not process orders sent electronically, including but not limited to, communications sent via the Internet, mobile and cellular technologies, and electronic mail. Also, communications transmitted by you electronically represents your consent to two-way communication by electronic means. If you receive communications in error, please contact the sender and delete the material from any electronic means on which it exists.
+    </p>
+    <p class="text-justify block py-3 font-normal">
+      © 2022 The Citigroup Global Market Life Insurance Company. All rights reserved. 388 Greenwich Street Tower Building, New York, NY 10013, USA 256-960‑8188.
+    </p>
+    <p class="text-justify block py-3 font-normal">
+      Citigroup Global Market is the marketing name for The Citigroup Global Market Life Insurance Company (CM) (life and disability Insurance, annuities, and life insurance with long-term care benefits) and its subsidiaries, including Citigroup Global Market Long Term Care Insurance Company (CGMLTCI) (long-term care insurance), Citigroup Global Market Investment Services, LLC (CGMIS) (investment brokerage services), a registered investment adviser, broker-dealer, and member of FINRA and SIPC, and Citigroup Global Market Wealth Management Company® (CGMWMC) (investment advisory and trust services), a federal savings bank. CGM and its subsidiaries are in Greenwich, NY.
+    </p>
+    <p class="text-justify block py-3 font-normal">
+      Rahul Sahil Gupta uses Citigroup Global Markets as a marketing name for doing business as a representative of Citigroup Global Market. Citigroup Global Markets is not a registered investment adviser, broker-dealer, insurance agency or federal savings bank. Rahul Sahil Gupta is an Insurance Agent of CG and CGLTC. Investment brokerage services provided as a Registered Representative of CGIS. Investment advisory services provided as an Advisor of CGWMC.
+    </p>
+    <p class="text-justify block py-3 font-normal">
+      The products and services referenced are offered and sold only by appropriately appointed and licensed entities and financial advisors and representatives. Financial advisors and representatives and their staff might not represent all entities shown or provide all the products or services discussed on this website. Not all products and services are available in all states. Not all Citigroup Global Market representatives are advisors. Only those representatives with "Advisor" in their title or who otherwise disclose their status as an advisor of CGWMC are credentialed as CGWMC representatives to provide investment advisory services.
+    </p>
+    <p class="text-justify block py-3 font-normal">
+      Depending on the products and/or services being recommended or considered, refer to the appropriate disclosure brochure for important information on the Citigroup Global Market Wealth Management Company, its services, fees and conflicts of interest before investing. To obtain a copy of one or more of these brochures, contact your representative.
+      <br><br>
+      Rahul Sahil Gupta is primarily licensed in NY and may be licensed in other states.
+    </p>
+
+  </footer>
+
+  <img src="{% static 'vendors/images/logo.svg' %}" alt="" class="block h-14 object-cover">
+</section>

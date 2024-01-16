@@ -1,0 +1,168 @@
+{% load static i18n webpack_loader %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}
+<html lang="{{ LANGUAGE_CODE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{% block title %}Rahul Sahil Gupta{% endblock title %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Management Advisor Rahul Sahil Gupta">
+    <meta name="author" content="Rahul Sahil Gupta">
+
+    <link rel="icon" href="{% static 'vendors/images/favicon.svg' %}">
+    <link rel="canonical" href="https://www.rahulsahilgupta.com/{{request.path}}">
+    {% stylesheet_pack 'app' %}
+
+
+    {% block css %}
+    {% endblock %}
+
+    <!-- Le javascript
+    ================================================== -->
+    {# Placed at the top of the document so pages load faster with defer #}
+    {% block javascript %}
+    {% endblock javascript %}
+
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = 'e501d67137c7ef5ebce1507e6507aa8f7070aae5';
+      window.smartsupp||(function(d) {
+        var s,c,o=smartsupp=function(){ o..push(arguments)};o.=[];
+        s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+        c.type='text/javascript';c.charset='utf-8';c.async=true;
+        c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+      })(document);
+    </script>
+
+  </head>
+
+<!-- add smthn -->
+
+  <body>
+
+    {% block modal %}{% endblock modal %}
+
+    {% if not request.htmx %}
+    {% include "snippets/nav.html" %}
+
+    <section class="h-60 w-screen object-cover">
+      <img src="{% static 'vendors/images/bg.jpeg' %}" alt="hero image" class="w-full h-full object-cover pt-30">
+    </section>
+
+    <section class="w-screen px-3 md:px-24 py-6 md-flex relative md:hidden">
+      <div class="-mt-28 object-cover space-y-3 w-full justify-center flex flex-col">
+        <img src="{% static 'vendors/images/me.jpg' %}" alt="rahul photo" class="bg-citibank w-40 md:w-60 h-40 md:h-60 mx-auto">
+        <div class="w-full space-y-2 text-center text-gray-700">
+          <h4 class="font-bold text-2xl md:text-3xl">Rahul Sahil Gupta</h4>
+          <strong class="block text-xl font-light">Investment Advisor & Broker</strong>
+          <p class="block text-base font-light">CFP<sup>®</sup>, CPA, CLU<sup>®</sup>, CLTC<sup>®</sup></p>
+          <p class="font-normal text-sm">Helping you not get <strong>KILLED</strong> from taxes in capital gains and Retirement.</p>
+          <hr>
+          <strong class="block font-bold text-base">
+            AREA OF FOCUS
+          </strong>
+          <div class="flex flex-wrap gap-2 text-sm">
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Capital Gains</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Investment Management</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Financial Advisory</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Owning a Business</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Taxes</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Crypto</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Stocks</button>
+            <button class="rounded-md text-green-800 bg-green-200 py-2 px-3">Real Estate investment</button>
+          </div>
+          <hr>
+          <div class="flex items-center space-x-6 pt-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+            <span class="block font-lighter underline text-blue-400 text-left">388 Greenwich Street Tower Building, New York, NY 10013, USA</span>
+          </div>
+          <a href="mailto://rahulgupta@rahulsahilgupta.com" class="flex items-center space-x-6 pb-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            <span class="block font-lighter underline text-blue-400 text-left">rahulgupta@rahulsahilgupta.com</span>
+          </a>
+          <a href="https://instagram.com/rahul_citigroup_globalmarket" class="flex items-center space-x-6 pb-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+            <span class="block font-lighter underline text-blue-400 text-left">@Rahul_Citigroup_globalmarket</span>
+          </a>
+          <div class="flex items-center space-x-6 mb-6 pb-8">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+            </svg>
+            <span class="block font-lighter underline text-blue-400 text-left">256-960‑8188</span>
+          </div>
+          <a href="https://wa.me/message/WGNVIO7KS4UWG1" class="block mt-6 py-3 w-full items-center text-center px-6 justify-center bg-citibank text-white hover:bg-citibank/60 duration-300 hover:shadow-md">
+            Let's Connect
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="w-screen px-3 md:px-24 relative py-6 hidden md:block">
+      <div class="w-52 left-24 -top-28 border-2 border-white absolute space-y-4">
+        <img src="{% static 'vendors/images/me.jpg' %}" alt="Rahul Sahil Gupta" class="w-52 h-52">
+        <a href="https://wa.me/message/WGNVIO7KS4UWG1" class="block py-3 w-full items-center text-center px-6 justify-center bg-citibank text-white hover:bg-citibank/60 duration-300 hover:shadow-md">
+          Let's Connect
+        </a>
+      </div>
+
+      <div class="pl-60 space-y-3">
+        <h4 class="font-bold text-3xl">Rahul Sahil Gupta</h4>
+        <div class="flex items-center space-x-4 divide-x-2">
+          <strong class="block text-xl font-light">Investment Advisor & Broker</strong>
+          <p class="block text-base font-light pl-4">CFP<sup>®</sup>, CPA, CLU<sup>®</sup>, CLTC<sup>®</sup></p>
+        </div>
+        <div class="flex items-center space-x-6 pt-4">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span class="block font-lighter underline text-blue-400 text-left">CITI Retail Banking, 785 5th Avenue, New York 10022</span>
+        </div>
+        <a href="mailto://rahulgupta@rahulsahilgupta.com" class="flex items-center space-x-6 pb-1">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+          </svg>
+          <span class="block font-lighter underline text-blue-400 text-left">rahulgupta@rahulsahilgupta.com</span>
+        </a>
+        <a href="https://instagram.com/rahul_citigroup_globalmarket" class="flex items-center space-x-6 pb-1">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+          <span class="block font-lighter underline text-blue-400 text-left">@Rahul_Citigroup_globalmarket</span>
+        </a>
+        <div class="flex items-center space-x-6 pb-8">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+          </svg>
+          <span class="block font-lighter underline text-blue-400 text-left">256-960‑8188</span>
+        </div>
+    </div>
+    </section>
+
+    <div class="space-x-5 w-screen px-3 md:px-24 bg-[#EDF0F3] items-center flex py-1 md:justify-center overflow-x-auto">
+      <button hx-get="{% url 'home' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'home' %}" class="py-1 px-6 hover:border-b-2 border-b-citibank duration-300 w-52 block text-center">HOME</button>
+      <button hx-get="{% url 'about' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'about' %}" class="py-1 px-6 hover:border-b-2 border-b-citibank duration-300 w-52 block text-center">ABOUT</button>
+      <button hx-get="{% url 'team' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'team' %}" class="py-1 px-6 hover:border-b-2 border-b-citibank duration-300 w-52 block text-center">TEAM</button>
+      <button hx-get="{% url 'planning' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'planning' %}" class="py-1 px-6 hover:border-b-2 border-b-citibank duration-300 w-52 block text-center">PLANNING</button>
+      <!-- <button hx-get="{% url 'resources' %}" hx-target="#body" hx-swap="innerHTML" hx-push-url="{% url 'resources' %}" class="py-3 px-6 hover:border-b-2 border-b-citibank duration-300 w-52 block text-center">RESOURCES</button> -->
+    </div>
+    {% endif %}
+
+    <main id="body" class="w-screen bg-[#EDF0F3] text-gray-700">
+    {% block content %}
+
+    {% endblock content %}
+    </main>
+
+    {% if not request.htmx%}
+    {% include "snippets/footer.html" %}
+    {% javascript_pack 'app' %}
+    {% endif %}
+
+  </body>
+</html>

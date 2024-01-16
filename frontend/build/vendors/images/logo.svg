@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW X6 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="10.416667in"
+   height="2.7473407in"
+   version="1.1"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 10414.966 2746.8922"
+   id="svg32"
+   sodipodi:docname="Citigroup-logo.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata36"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1001"
+   id="namedview34"
+   showgrid="false"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0"
+   inkscape:zoom="0.91237268"
+   inkscape:cx="793.95316"
+   inkscape:cy="29.188763"
+   inkscape:window-x="-9"
+   inkscape:window-y="-9"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg32" />
+ <defs
+   id="defs4">
+  <style
+   type="text/css"
+   id="style2">
+   <![CDATA[
+    .fil1 {fill:#135189}
+    .fil2 {fill:#ED323D}
+    .fil0 {fill:#FEFEFE}
+   ]]>
+  </style>
+ </defs>
+ <g
+   id="Layer_x0020_1"
+   transform="matrix(4.0042161,0,0,4.0042161,-168.17708,-3864.0685)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  
+  <path
+   class="fil1"
+   d="m 277,1448 -2,2 c -22,22 -47,34 -74,34 -56,0 -96,-40 -96,-98 0,-59 40,-99 96,-99 27,0 52,12 74,34 l 2,2 35,-42 v -2 c -30,-35 -66,-52 -110,-52 -44,0 -84,15 -113,42 -32,29 -47,69 -47,118 0,47 15,88 47,116 29,27 69,42 113,42 44,0 79,-17 110,-52 v -2 l -35,-42 z"
+   id="path9"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <polygon
+   class="fil1"
+   points="352,1230 352,1537 414,1537 414,1230 "
+   id="polygon11"
+   style="fill:#135189" />
+  <path
+   class="fil1"
+   d="m 650,1471 c -15,10 -32,15 -46,15 -20,0 -30,-10 -30,-35 v -162 h 64 v -59 h -64 v -96 l -61,34 v 62 h -54 v 59 h 54 v 174 c 0,47 27,79 69,79 29,2 46,-7 56,-13 h 2 v -2 l 15,-59 z"
+   id="path13"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <polygon
+   class="fil1"
+   points="696,1230 696,1537 760,1537 760,1230 "
+   id="polygon15"
+   style="fill:#135189" />
+  <path
+   class="fil2"
+   d="m 2335,965 h -15 l -3,25 c -251,7 -302,202 -302,202 0,0 46,-29 113,-29 69,0 96,27 96,27 0,0 44,-35 105,-35 61,0 105,35 105,35 0,0 27,-27 94,-27 69,0 115,29 115,29 0,0 -52,-196 -304,-202 l -3,-25 z"
+   id="path17"
+   inkscape:connector-curvature="0"
+   style="fill:#ed323d" />
+  <path
+   class="fil2"
+   d="m 2289,1546 c 39,0 59,-24 59,-67 0,-19 0,-295 0,-295 -8,-3 -22,-3 -30,0 0,0 0,273 0,295 0,29 -12,39 -29,39 -19,0 -30,-10 -30,-39 v 0 c 0,-8 -7,-15 -13,-15 -8,0 -15,7 -15,15 0,44 20,67 59,67 z"
+   id="path19"
+   inkscape:connector-curvature="0"
+   style="fill:#ed323d" />
+  <path
+   class="fil1"
+   d="m 1011,1449 c -17,20 -44,40 -73,40 -47,0 -73,-34 -73,-113 0,-64 24,-98 69,-98 32,0 61,22 76,40 v 130 z m 61,61 v -280 h -62 v 29 c -17,-19 -47,-35 -79,-35 -66,0 -126,51 -126,155 0,118 54,167 123,167 34,0 59,-15 83,-35 v 5 c 0,62 -20,86 -110,91 l 22,44 c 115,-3 150,-47 150,-140 z"
+   id="path21"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <path
+   class="fil1"
+   d="m 1298,1294 c -13,-7 -29,-12 -49,-12 -40,0 -62,27 -62,79 v 175 h -62 v -307 h 62 v 29 c 13,-20 40,-35 73,-35 25,0 42,5 56,13 l -17,57 z"
+   id="path23"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <path
+   class="fil1"
+   d="m 1529,1385 c 0,56 -32,103 -79,103 -47,0 -81,-37 -81,-105 0,-62 30,-103 78,-103 51,0 83,40 83,105 z m 62,-2 c 0,-98 -61,-160 -142,-160 -81,0 -143,59 -143,162 0,96 61,160 142,160 83,0 143,-61 143,-162 z"
+   id="path25"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <path
+   class="fil1"
+   d="m 1815,1537 v -27 c -17,22 -49,35 -81,35 -76,0 -115,-47 -115,-138 v -177 h 62 v 175 c 0,62 25,84 66,84 42,0 67,-29 67,-79 v -180 h 62 v 307 h -62 z"
+   id="path27"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+  <path
+   class="fil1"
+   d="m 2136,1390 c 0,66 -25,99 -71,99 -32,0 -61,-22 -76,-40 v -132 c 17,-19 44,-39 74,-39 46,0 73,34 73,111 z m 62,-2 c 0,-116 -54,-165 -123,-165 -35,0 -62,15 -86,35 v -29 h -61 v 422 l 61,-32 v -110 c 19,19 49,35 83,35 66,0 126,-51 126,-157 z"
+   id="path29"
+   inkscape:connector-curvature="0"
+   style="fill:#135189" />
+ </g>
+</svg>
